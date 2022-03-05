@@ -1,4 +1,4 @@
-export type Url {
+export type Url = {
     urlPath: String,
     longUrl: String,
     shortUrl: String,
