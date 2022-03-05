@@ -9,7 +9,7 @@ Functionalities include:
 - The ability for users to get basic statistics and reports about a shortened url (no of hits, ip addresses of users that has accessed the endpoint)
 
 
-To get started with this project clone the repo by running the command git clone https://github.com/biliqis/url_shortnen_service.git or downloading the zip file
+To get started with this project clone the repo by running the command git clone https://github.com/biliqis/url_shortner_typescript.git or downloading the zip file
 
 In the root of the project run the following command
 
@@ -28,4 +28,4 @@ Start the development sever via the command
 $ npm run dev
 ```
 
-The documentation for the project can be found [here](https://documenter.getpostman.com/view/16600205/UVkvJXtR) and the live url [here](https://dashboard.heroku.com/apps/urltypes/)
+The documentation for the project can be found [here](https://documenter.getpostman.com/view/16600205/UVkvJXtR) and the live url [here](https://urltypes.herokuapp.com)

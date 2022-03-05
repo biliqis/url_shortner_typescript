@@ -15,7 +15,7 @@ app.use(morgan("dev"));
 app.use(routes);
 
 app.get("/", async(req, res)=>{
-	return res.status(200).send("welcome to my Typescript URL_Shortner Application")
+	return res.status(200).send("welcome to my Typescript URL_Shortner Application, please go to https://documenter.getpostman.com/view/16600205/UVkvJXtR to view the documentation")
   })
 
 
