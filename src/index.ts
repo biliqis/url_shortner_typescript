@@ -14,9 +14,9 @@ app.use(morgan("dev"));
 
 app.use(routes);
 
-app.get("/", (req, res) => {
-	res.send("Ok")
-});
+app.get("/", async(req, res)=>{
+	return res.status(200).send("welcome to my Typescript URL_Shortner Application")
+  })
 
 
 const port = process.env.PORT
