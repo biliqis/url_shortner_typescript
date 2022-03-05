@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import express from "express";
-import { Url } from "../types/url.type";
 import { urlModel } from "./url.model";
 const { nanoid } = require("nanoid");
 
