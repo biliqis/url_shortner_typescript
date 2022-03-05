@@ -9,17 +9,18 @@ class UrlService {
     hostname: string | undefined
   ) => {
     const urlPath = nanoid(8);
-    const urlBody = hostname + "/" + urlPath;
+    const  shortUrl = hostname + "/" + urlPath;
     const newUrl = await urlModel.findOne({ longUrl });
-    if (newUrl) return newUrl.urlBody;
+    console.log(newUrl)
+    if (newUrl) return newUrl.shortUrl;
     const results = new urlModel({
       urlPath,
-      urlBody,
+      shortUrl,
       longUrl,
       Date: new Date(),
     });
     await results.save();
-    return urlBody;
+    return  shortUrl;
 
   };
 
